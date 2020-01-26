@@ -1,0 +1,261 @@
+
+<!doctype html>
+<html lang="en">
+
+<!--
+  Name:        Hari Phuyel
+  Date:       02/15/2019
+  Description: Building a Meditation site for Sahaja Yoga Mediation Louisville, Kentucky
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SY-KY Homepage</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="styles/carousel.css" rel="stylesheet">
+    <link href="styles/SahajaYogaWeb.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar navbar-expand-lg  fixed-top bg-dark">
+            <a class="navbar-brand" href="#">SY-KY-Meditation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.sahajayoga.org.in/sahaja-yoga-kundalini">What is
+                            Kundalini Energy?</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            type="carousel-indicators" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Sahaja Library</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://vimeo.com/77286851" target="_blank">Meditation
+                                Music</a>
+                            <a class="dropdown-item" href="https://www.youtube.com/watch?v=fwKd9hUtc4w&t=14s"
+                                target="_blank">Self Self-Realization Guided</a>
+                            <a class="dropdown-item"
+                                href="https://www.youtube.com/watch?v=GFIs6Nv-bAM&list=PL957C64138250EDE5"
+                                target="_blank">Instrumental</a>
+                            <a class="dropdown-item"
+                                href="https://www.youtube.com/watch?v=SAwxZJ24-SM&list=PL63DDB89D9B578E48"
+                                target="_blank">Music for All Chakras</a>
+                            <a class="dropdown-item"
+                                href="https://www.youtube.com/watch?v=9tR_ffzqH04&index=4&list=PLUEtF2j9oNtkADKBErQLW4WdJA906Q6mU"
+                                target="_blank">Speeches</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#" target="_blank">Contact</a>
+
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="http://www.lfpl.org/branches/newburg.htm" target="_blank">Location</a>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div id="myCarousel" class="container carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide img-fluid" src="images/UniversalMassage.JPG" alt="Universal Massage">
+                    <div class="container-fluid">
+                        <div class="carousel-caption text-left">
+                            <p><a class="btn btn-lg btn-warning" href="http://www.sahajayoga.org/" role="button"
+                                    target="_blank">What
+                                    is Sahaja Yoga Meditation?</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="second-slide img-fluid" src="images/Meditation01.JPG" alt="Meditation">
+                    <div class="container-fluid">
+                        <div class="carousel-caption">
+                            <h1>Sahaja Yoga Meditation, World Wide since 1970</h1>
+                            <p><a class="btn btn-lg btn-warning"
+                                    href="https://www.sahajayoga.org.in/sahaja-yoga-scientific-explanation"
+                                    role="button" target="_blank">Learn more</a></p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide img-fluid" src="images/03-SriMataji02-ws.jpg" alt="Sri Mataji">
+                    <div class="container-fluid">
+                        <div class="carousel-caption text-left">
+                            <h1>Self-Realization</h1>
+                            <p>The Union referred to is between the conscious mind through the subtle mechanism
+                                described below,
+                                with a higher, universal consciousness.
+                            </p>
+                            <p><a class="btn btn-lg btn-warning"
+                                    href="http://www.sahajayoga.org/chakrasandsubtlebody/?mode=text" role="button"
+                                    target="_blank">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+      ================================================== -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle " src="images/kundalinirising01.gif" alt="Awakening Kundalini Energy"
+                        width="150 " height="150 ">
+                    <h2>Kundalini Energy</h2>
+                    <p>Kundalini means "coiled energy" and refers to a power which lies in three and half coils in the
+                        sacrum bone which is situated at the lower end of vertebral column .A pulsation is sometimes
+                        seen at this level during Kundalini awakening.
+                        When it is awakened it ascends to the top of the Sushumna. When Kundalini emerges at this
+                        point, Yoga (Union) is said to have taken place. This happening of Kundalini awakening and
+                        ultimate union with a
+                        higher consciousness is an inborn mechanism and is activated in a spontaneous and natural way
+                        without extreme efforts.</p>
+                    <p><a class="btn btn-outline-warning btn-secondary "
+                            href="https://www.youtube.com/watch?v=FMM7IiRa330 " role="button" target="_blank">View
+                            details &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4 ">
+                    <img class="rounded-circle img-fluid" src="images/SriMataji03-thumb.jpg" alt="Sri Mataji"
+                        width="150" height="150">
+                    <h2>Little about Sri Mataji</h2>
+                    <p>Nirmala Srivastava (née Nirmala Salve) (21 March 1923 – 23 February 2011), also known as Shri
+                        Mataji Nirmala Devi, is the founder of
+                        Sahaja Yoga, a meditation technique. She said "You cannot know the meaning of your life until
+                        you're connected to the power that
+                        created you". She claimed to have been born in a fully realised and spent her life working for
+                        peace by developing and promoting a
+                        simple technique through which people can achieve their own self-realization.</p>
+                    <p><a class="btn btn-outline-warning btn-secondary " href="http://shrimataji.org/" role="button"
+                            target="_blank">View details &raquo;</a></p>
+                </div>
+
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4 ">
+                    <img class="rounded-circle " src="images/Dhanvantari01.jpg " alt="Sri Mataji" width="150"
+                        height="150">
+                    <h2>Benefits of Meditation</h2>
+                    <p>Meditation practiced in Sahaja Yoga is good for heart, mind, body and soul. Sahaja Yoga is the
+                        easiest, most direct method available to anyone
+                        who seeks to discover the Inner Self and explore the depths of spirituality. It offers a
+                        practical method for understanding your own subtle
+                        energy system and tapping into this powerful force. The awareness of the subtle energy system is
+                        completely verifiable through a sensation of
+                        the flow of the energy on the palms and finger tips and on the top of the head..</p>
+                    <p><a class="btn btn-outline-warning btn-secondary " href="http://www.sahajayoga.us/" role="button"
+                            target="_blank">View details &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-6 col-md">
+                    <!--<img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
+
+                    <ul class="list-unstyled text-small">
+                        <li class="section-header">Meditation Location:</li>
+                        <li>
+                            <a href="#">Newburg Free Public Library </br> 4800 Exeter Ave, Louisville, KY 40218</a>
+                            <a href="https://www.google.com/maps/place/Newburg+Library/@38.1813202,-85.6728697,17z/data=!4m12!1m6!3m5!1s0x88690b911feaec7f:0xfb667b0b8c6e7fc9!
+                            2sNewburg+Library!8m2!3d38.1813202!4d-85.6706757!3m4!1s0x88690b911feaec7f:0xfb667b0b8c6e7fc9!8m2!3d38.1813202!4d-85.6706757?
+                            hl=en&authuser=0" target="_blank">Map</a>
+                        </li>
+                        <li>
+                            <a href="#">Meeting Hall (Ask librarian for direction) </br> Every Saturday. Time: 3:15 pm -
+                                5:00pm </a>
+                        </li>
+                        <li>
+                            <a href="#">Contat: Hari Phuyel @ (502) 387 6844</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md ">
+                    <ul class="list-unstyled text-small">
+                        <li class="section-header">This page created by:</li>
+                        <li>
+                            <a href="#">Hari Phuyel</a>
+                        </li>
+                        <li>
+                            <a href="#">Winter Quarter 2019 </a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <small class="d-block mb-3 text-muted ">&copy; 2019 This page was created as a personal project
+                            for class CSC420 - IT Project Management hosted on
+                            <a href="https://github.com/scordle/DEV-website " target="_blank">GitHub</a><br /><br />
+                            Sullivan University <br />
+                            3101 Bardstown Road, Louisville, KY 40205 <br /> (502) 456.6505 <br /> </small>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js "><\/script>')
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy "
+        crossorigin="anonymous "></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js "></script>
+
+</body>
+
+</html>
